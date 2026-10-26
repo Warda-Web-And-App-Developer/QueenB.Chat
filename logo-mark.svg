@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256" role="img" aria-label="QueenB.Chat">
+  <rect width="64" height="64" rx="18" fill="#353935"/>
+  <path d="M32 8.5 50.5 19v21.2L38.2 47.4 33 56l-4.800-8.600L13.500 40.200V19Z" fill="#C19552"/>
+  <path d="M32 8.5 50.5 19v21.2L38.2 47.4 33 56l-4.800-8.600L13.500 40.200V19Z" fill="none" stroke="#FFFAA0" stroke-width="1.400" stroke-linejoin="round" opacity=".55"/>
+  <ellipse cx="24.500" cy="25" rx="7" ry="4.200" fill="#FFFAFA" opacity=".92" transform="rotate(-28 24.500 25)"/>
+  <ellipse cx="39.500" cy="25" rx="7" ry="4.200" fill="#FFFAFA" opacity=".92" transform="rotate(28 39.500 25)"/>
+  <ellipse cx="32" cy="33" rx="7.200" ry="9.500" fill="#FFFAA0"/>
+  <path d="M25 31.200q7 2.600 14 0v2.800q-7 2.600-14 0ZM26.200 37q5.800 2.400 11.600 0l.6 2.600q-6.400 2.600-12.800 0Z" fill="#353935"/>
+  <path d="M25.500 22.500 27 17l2.600 3.400L32 15.500l2.400 4.900L37 17l1.500 5.500Z" fill="#353935"/>
+  <circle cx="27" cy="16.400" r="1.100" fill="#353935"/><circle cx="32" cy="14.700" r="1.100" fill="#353935"/><circle cx="37" cy="16.400" r="1.100" fill="#353935"/>
+</svg>

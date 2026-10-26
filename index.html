@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#353935">
+<title>QueenB.Chat</title>
+<link rel="icon" type="image/svg+xml" href="logo-mark.svg">
+<script>
+  /* apply saved theme before paint (no flash) */
+  try { var t = localStorage.getItem('nova_theme');
+    if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark'); } catch (e) {}
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { darkMode: 'class', theme: { extend: { colors: { gold: '#C19552', steel: '#FFFAA0', royal: '#353935', pastel: '#FFFAA0', onyx: '#353935', snow: '#FFFAFA' } } } };
+</script>
+<link rel="stylesheet" href="styles.css?v=20261027">
+</head>
+<body>
+<div id="app"></div>
+<div id="toasts"></div>
+
+<!-- services -->
+<script src="https://www.gstatic.com/firebasejs/13.1.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/13.1.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/13.1.0/firebase-storage-compat.js"></script>
+
+<script src="firebase-config.js?v=20261027"></script>
+<script src="backend.js?v=20261027"></script>
+<script src="core.js?v=20261027"></script>
+<script src="settings.js?v=20261027"></script>
+<script src="sounds.js?v=20261027"></script>
+<script src="i18n.js"></script>
+<script src="auth.js?v=20261027"></script>
+<script src="avatar.js?v=20261027"></script>
+<script src="chat.js?v=20261027"></script>
+<script src="expressive.js?v=20261027"></script>
+<script src="extras.js?v=20261027"></script>
+<script src="calls.js?v=20261027"></script>
+<script src="safety.js?v=20261027"></script>
+<script src="ai.js?v=20261027"></script>
+<script src="miniapps.js?v=20261027"></script>
+<script src="settingsui.js?v=20261027"></script>
+<script src="motion.js?v=20261027"></script>
+<script src="main.js?v=20261027"></script>
+</body>
+</html>
