@@ -106,7 +106,7 @@ textarea{resize:none}
 .icon-btn.soft:hover{background:color-mix(in srgb,#353935 22%,var(--panel2))}
 .fab{position:absolute;right:1.25rem;bottom:max(1.25rem,env(safe-area-inset-bottom));width:3.5rem;height:3.5rem;border-radius:1.1rem;background:var(--gold);color:#353935;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px color-mix(in srgb,#C19552 55%,transparent);transition:transform .15s}
 .fab:hover{transform:translateY(-2px) scale(1.05)} .fab:active{transform:scale(.95)}
-.chip-g{font-size:10px;padding:2px 6px;border-radius:6px;background:var(--steel);color:#FFFAFA;vertical-align:middle;font-weight:700}
+.chip-g{font-size:10px;padding:2px 6px;border-radius:6px;background:var(--steel);color:#C19552;vertical-align:middle;font-weight:700}
 .unread-dot{width:10px;height:10px;border-radius:9999px;background:var(--gold);flex-shrink:0;box-shadow:0 0 0 3px color-mix(in srgb,#C19552 30%,transparent)}
 .composer{background:var(--panel);border:1px solid var(--border);border-radius:28px;padding:.375rem;box-shadow:0 6px 24px color-mix(in srgb,#353935 22%,transparent)}
 .send-btn{width:2.75rem;height:2.75rem;border-radius:9999px;background:var(--gold);color:#353935;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 14px color-mix(in srgb,#C19552 50%,transparent);transition:transform .12s}
